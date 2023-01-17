@@ -13,41 +13,41 @@
 * تغيير اسم قاعدة البيانات في الملف `env.` باسم مشابه تمامًا لقاعدة البيانات التي أنشأناها
 * نهجر الجداول إلى قاعدة البيانات ونعبئها بالمعلومات من `البذور` بتنفيذ الأمر:
 
-<h6 dir="ltr">
+<pre dir="ltr">
 
 `php artisan migrate --seed`
 
-</h6>
+</pre>
 
 * لكي تُعرض الصور في المشروع يجب علينا إنشاء رابط link بتنفيذ الأمر:
-<h6 dir="ltr">
+<pre dir="ltr">
 
 `php artisan storage:link`
 
-</h6>
+</pre>
 
 * إنشاء الحزم اللازمة لتشغيل المشروع بتنفيذ الأمر:
-<h6 dir="ltr">
+<pre dir="ltr">
 
 `composer install`
 
-</h6>
+</pre>
 
-<h6 dir="ltr">
+<pre dir="ltr">
 
 `npm install`
 
-</h6>
+</pre>
 * بعدها ننفذ الأمر:
-<h6 dir="ltr"> 
+<pre dir="ltr">
 
 `php artisan key:generate`
 
-</h6>
+</pre>
 
 * نستخدم في المشروع نظام الإشعارات باستخدام pusher لذلك لضبط إعداداته من ملف `env.`
 
-<h6 dir="ltr">
+<pre dir="ltr">
 
 `BROADCAST_DRIVER=pusher`<br>
 `PUSHER_APP_ID=`<br>
@@ -56,15 +56,15 @@
 `PUSHER_APP_SECRET=`<br>
 `PUSHER_APP_CLUSTER=`<br>
 
-</h6>
+</pre>
 
 * الآن أصبح المشروع جاهز للتشغيل ننفذ الأمر:
 
-<h6 dir="ltr">
+<pre dir="ltr">
 
-`php artisan serve`
+php artisan serve
 
-</h6>
+</pre>
 
 * ننسخ الرابط الذي ظهر ونلصقه بالمتصفح.
 
