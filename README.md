@@ -14,48 +14,39 @@
 * نهجر الجداول إلى قاعدة البيانات ونعبئها بالمعلومات من `البذور` بتنفيذ الأمر:
 
 <pre dir="ltr">
-
-`php artisan migrate --seed`
-
+php artisan migrate --seed
 </pre>
 
 * لكي تُعرض الصور في المشروع يجب علينا إنشاء رابط link بتنفيذ الأمر:
 <pre dir="ltr">
-
-`php artisan storage:link`
-
+php artisan storage:link
 </pre>
 
 * إنشاء الحزم اللازمة لتشغيل المشروع بتنفيذ الأمر:
 <pre dir="ltr">
-
-`composer install`
-
+composer install
 </pre>
 
 <pre dir="ltr">
 
-`npm install`
+npm install
 
 </pre>
 * بعدها ننفذ الأمر:
 <pre dir="ltr">
-
-`php artisan key:generate`
-
+php artisan key:generate
 </pre>
 
 * نستخدم في المشروع نظام الإشعارات باستخدام pusher لذلك لضبط إعداداته من ملف `env.`
 
 <pre dir="ltr">
 
-`BROADCAST_DRIVER=pusher`<br>
-`PUSHER_APP_ID=`<br>
-`PUSHER_APP_SECRET=`<br>
-`PUSHER_APP_KEY=`<br>
-`PUSHER_APP_SECRET=`<br>
-`PUSHER_APP_CLUSTER=`<br>
-
+BROADCAST_DRIVER=pusher`<br>
+PUSHER_APP_ID=
+PUSHER_APP_SECRET=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
+PUSHER_APP_CLUSTER=
 </pre>
 
 * الآن أصبح المشروع جاهز للتشغيل ننفذ الأمر:
@@ -63,7 +54,6 @@
 <pre dir="ltr">
 
 php artisan serve
-
 </pre>
 
 * ننسخ الرابط الذي ظهر ونلصقه بالمتصفح.
