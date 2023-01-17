@@ -40,8 +40,7 @@ php artisan key:generate
 * نستخدم في المشروع نظام الإشعارات باستخدام pusher لذلك لضبط إعداداته من ملف `env.`
 
 <pre dir="ltr">
-
-BROADCAST_DRIVER=pusher`<br>
+BROADCAST_DRIVER=pusher
 PUSHER_APP_ID=
 PUSHER_APP_SECRET=
 PUSHER_APP_KEY=
